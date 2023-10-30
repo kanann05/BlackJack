@@ -17,9 +17,11 @@ I used functions, loops and logic structure to create this.
 
 -When the player decides to STAND, dealer() function is called.
 
--The dealer's goal is to score either more than player and less than 22. The dealer will be served until either : i) dealerPts == playerPts; the game is a draw.
+-The dealer's goal is to score either more than player and less than 22. The dealer will be served until either :
+  i) dealerPts == playerPts; the game is a draw.
+  ii) dealerPts > playerPts and dealerPts<21; dealer wins.
+  iii) deakerPts > playerPts and dealerPts > 21; player wins.
 
-                                                                                             ii) dealerPts > playerPts and dealerPts<21; dealer wins.
-                                                                                            iii) deakerPts > playerPts and dealerPts > 21; player wins.
+                                                                                            
                                                                                                                   
 The game conitnues until one of the ending conditions are met.                                                                                                                  
